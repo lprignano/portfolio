@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="icon" href="assets/img/Tulip_Logo_FlowerHead.png"/>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -39,7 +40,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Lucas Prignano</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Put a one-sentence description of yourself here!</h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Aspiring Cybersecuruty Student</h2>
                         <a class="btn btn-primary" href="#about">About Me</a>
                     </div>
                 </div>
@@ -67,9 +68,9 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
                     <div class="col-lg-8">
                         <h2 class="mb-4">Education</h2>
                         <p class="text-black-50">
-                            <b>Certificates of Completion</b>
+                            <b>Certificate of Completion</b>
                             <br>
-                            Software Engineering and Information Technology
+                            Software Engineering
                             <br>
                             <i> Hartford Area Career and Technology Center, 2025</i>
                             <br>
@@ -83,7 +84,7 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
                         <p class="text-black-50">
                             <i> Dartmouth College Research Computing, 2025</i>
                             <br>
-                            One-sentence description of what you did there.
+                            Making a web app for researchers.
                         </p>
                         <h2 class="mb-4">Certifications</h2>
                         <p class="text-black-50">
@@ -107,26 +108,26 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="https://placehold.co/800x600"/></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Tulip_Logo_No_Background.png"/></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Messaging App</h4>
-                            <p class="text-black-50 mb-0">Short description of featured item.</p>
+                            <h4>Messaging Application</h4>
+                            <p class="text-black-50 mb-0">Application utilizing AWS to send messages to other people.</p>
                         </div>
                     </div>
                 </div>
                 
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                    <div class="col-lg-6"><img class="p-2 img-fluid" src="https://placehold.co/600x400"/></div>
+                    <div class="col-lg-6"><img class="p-2 img-fluid" src="assets/img/dartmouth_rc_logo_bw.png"/></div>
 
                     
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Second Item</h4>
-                                    <p class="mb-5 text-white-50">Short description of second item.</p>
+                                    <h4 class="text-white">Dartmouth Research Computing Calculator</h4>
+                                    <p class="mb-5 text-white-50">Web app to calculate compute costs for college researchers.</p>
                                 </div>
                             </div>
                         </div>
@@ -135,13 +136,13 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
 
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                    <div class="col-lg-6"><img class="p-2 img-fluid" src="https://placehold.co/600x400"/></div>
+                    <div class="col-lg-6"><img class="p-2 img-fluid" src="assets/img/quicksort_diagram.png"/></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Quicksort</h4>
-                                    <p class="mb-0 text-white-50">Short description of third item.</p>
+                                    <p class="mb-0 text-white-50">Quicksort program that allows you to select what file to sort.</p>
                                 </div>
                             </div>
                         </div>
@@ -184,11 +185,17 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Featured Item</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Messaging App</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img src="https://placehold.co/600x400" class="figure-img img-fluid rounded" alt="HACTC logo in grayscale">
+                                    <img src="assets/img/messaging_backend_plan.svg" class="figure-img img-fluid rounded" alt="HACTC logo in grayscale">
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Longer description of featured item</p>
+                                    <p class="mb-4">I worked with a classmate to make a messaging application. This messaging application utilizes Amazon Web Services as a backend to 
+                                        put messages into a queue, send out notifications, and store message history. Our application uses the following AWS services: DynamoDB for the 
+                                        messaging history, Amazon SQS to send out messages, Amazon SNS to send notifications, and Amazon Lambda to save messages to history and queue notifications. 
+                                        This app also uses Electron to have a desktop app GUI made in HTML and CSS. It supports sending regular messages, links, images, and video. We named this application 
+                                        TwoLip, after mouths and the flower, and made a logo reflecting this. This project taught me a lot about cloud computing and AWS, as well as collaborating with others 
+                                        and persevering through challenges. 
+                                    </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -211,11 +218,16 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Second Item</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dartmouth RC Calculator</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img src="https://placehold.co/600x400" class="figure-img img-fluid rounded">
+                                    <img src="assets/img/dartmouth_rc_discovery.jpg" class="figure-img img-fluid rounded">
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Longer description of second item.</p>        
+                                    <p class="mb-4">During an internship at Dartmouth College I worked with their Research Computing team to make a webpage 
+                                        to allow their customers to calculate different compute jobs. Users could input different specifications for how much RAM, HDD space, 
+                                        and CPUs they want along with other preferences. The page would then give them the estimated cost per year and change the URL to 
+                                        include the inputs so that you could copy it and open the webpage with the same preferences and estimate. Completing this project 
+                                        required me to learn HTML, CSS, Javascript, and source code control with Github. During this internship I gained experience with 
+                                        communicating with other members of the team and collaborating remotely.</p>        
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -240,7 +252,7 @@ themselves online. Proficient in: Python and Java, experience with: HTML/CSS and
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Quicksort</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img src="https://placehold.co/600x400" class="figure-img img-fluid rounded">
+                                    <img src="assets/img/quicksort_program_gui.png" class="figure-img img-fluid rounded">
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">I wrote this program to run two ways. It could run through command prompt using command line arguments, or through a GUI. 
                                         The GUI has an entry box that would search for a file of the inputted name in the same folder, or follow an inputted path. 
